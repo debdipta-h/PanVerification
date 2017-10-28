@@ -51,7 +51,7 @@ public class VerificationManager {
 		}
 	}
 
-	private void checkDatesValidity() {
+	private void checkDatesValidity() throws ValidationException {
 		String dob = newPan.getDateOfBirth();
 		String issueDate = newPan.getIssueDate();
 		checkDateFormat(dob);
