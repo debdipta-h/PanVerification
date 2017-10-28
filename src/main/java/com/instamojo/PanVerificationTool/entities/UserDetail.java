@@ -1,4 +1,4 @@
-package model;
+package com.instamojo.PanVerificationTool.entities;
 
 import java.io.Serializable;
 import javax.persistence.*;
